@@ -1,0 +1,62 @@
+body{
+    height: 100%;
+    font-family: serif;
+    
+}
+
+main{
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding-top: 5px;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+tbody{
+    border: solid #333 1px;
+    
+}
+
+.films{
+    height: 100px;
+}
+
+.years{
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.awards{
+    text-align: left;
+    padding-left: 10px;
+}
+
+thead th{
+    color: white;
+    background: black;
+    border: solid white 1px;
+}
+
+tbody .films{
+    text-align: left;
+    padding: 5px;
+}
+
+th{
+    background: whitesmoke;
+    border: solid #333 1px;
+}
+
+td{
+    padding: 10px;
+    font-size: 10pt;
+}
